@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    position: relative;
+    background: url(../../../public/images/banner.jpg) top center / cover no-repeat;
+    height: 100vh;
+    opacity: 1;
+}
+
+.overlay{
+    background-color: rgba(35, 35, 35, 0.471);    
+    height: 100vh;
+}

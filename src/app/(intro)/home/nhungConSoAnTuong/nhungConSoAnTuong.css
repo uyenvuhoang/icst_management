@@ -1,0 +1,52 @@
+/* Home - Nhung con so an tuong */
+
+.ncsat{
+    height: auto;
+    margin: 50px 105px;
+}
+
+.ncsat__content{
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+
+.ncsat__title{
+    font-size: 160%;
+    color: rgb(249, 124, 41);
+    font-weight: 700;
+    text-align: center;
+}
+
+.ncsat__title::before{
+    content: "";
+    background-color: #333;
+    width: 227px;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ncsat__starIcon{
+    color: #5a564d;
+    position: absolute;
+    left: 48%;
+    bottom: -89%;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ncsat__img img{
+    width: 82%;
+    margin: 0 100px;
+    transition: transform 0.5s;
+}
+
+.ncsat__img img:hover{
+    transform: scale(1.1);
+    z-index: 0;
+}

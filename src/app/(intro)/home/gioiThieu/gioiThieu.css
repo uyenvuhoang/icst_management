@@ -1,0 +1,74 @@
+/* Home - Gioi thieu */
+
+.content{
+    height: auto;
+    margin: 105px 105px 0px;
+}
+
+.gt{
+    display: flex;
+}
+
+.gt-content{
+    position: relative;
+    width: 100%;
+}
+
+.gt-title{
+    position: relative;
+    font-size: 160%;
+    color: rgb(249, 124, 41);
+    font-weight: 700;
+    margin-left: 38%;
+}
+
+.gt-title::before{
+    content: "";
+    background-color: #333;
+    width: 227px;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.gt-starIcon{
+    color: #5a564d;
+    position: absolute;
+    left: 44.5%;
+    bottom: -89%;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gt-nextIcon{
+    opacity: .5;
+}
+
+.gt-nextIcon{
+    cursor: pointer;;
+}
+
+.gt-img{
+    margin-top: 40px;
+}
+
+.gt-img img{
+    width: 100%;
+}
+
+.gt-text{
+    margin: 8px 6px;
+    color: #4a4a4a;
+    font-size: 1.08rem;
+    font-weight: bolder;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.gt-text a{
+    color: #334862;
+    text-decoration: none;
+}

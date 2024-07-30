@@ -1,0 +1,88 @@
+/* Home - Lien he  */
+
+.lh{
+    height: auto;
+    margin: 50px 105px 150px;
+}
+
+.lh__content{
+    position: relative;
+    width: 100%;
+}
+
+.lh__title{
+    font-size: 160%;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lh__title::before{
+    content: "";
+    background-color: #333;
+    width: 227px;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lh__starIcon{
+    color: #5a564d;
+    position: absolute;
+    left: 48%;
+    bottom: -89%;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lh__textField{
+    margin: 50px 200px 0;
+}
+
+.lh__textField-name{
+    width: 357px;
+    outline-color: #ccc;
+}
+
+.lh__textField-phone{
+    width: 357px;
+    float: right;
+}
+
+.lh__textField-email{
+    width: 100%;
+    margin: 26px 0;
+}
+
+.lh__textField-message{
+    width: 100%;
+}
+
+.lh__submit{
+    margin: 26px;
+    padding: 0 38%;
+}
+
+.lh__submit Button{
+    width: 220px;
+    height: 43px;
+    color: black;
+    background-color: #f97c29;
+    text-transform: capitalize;
+}
+
+.lh__submit Button:hover{
+    background-color: #f97c29;
+}
+
+.lh__submit input{
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: #f97c29;
+}

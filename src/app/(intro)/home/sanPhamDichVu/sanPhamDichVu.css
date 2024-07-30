@@ -1,0 +1,120 @@
+/* Home - San pham & dich vu */
+
+.sp-dv{
+    display: flex;
+    height: auto;
+    margin: 50px 105px;
+}
+
+.sp-dv__content{
+    position: relative;
+    width: 100%;
+}
+
+.sp-dv__title{
+    font-size: 160%;
+    color: rgb(249, 124, 41);
+    font-weight: 700;
+    margin-left: 38%;
+}
+
+.sp-dv__title::before{
+    content: "";
+    background-color: #333;
+    width: 227px;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sp-dv__starIcon{
+    color: #5a564d;
+    position: absolute;
+    left: 48%;
+    bottom: -89%;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sp-dv__nextIcon{
+    opacity: .5;
+}
+
+.sp-dv__nextIcon:hover{
+    cursor: pointer;;
+}
+
+.sp-dv__link{
+    width: 100%;
+    height: 100%;
+    background-color: #f97c29;
+}
+
+.sp-dv__col2{
+    margin-top: 11px;
+}
+
+.sp-dv__box{
+    height: auto;
+    margin: 0 105px;
+    padding: 105px 0;
+}
+
+.sp-dv__box-inner{
+    width: 97%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.sp-dv__img img{
+    width: 74%;
+    margin: 0 47px;
+    transition: transform 0.5s;
+}
+
+.sp-dv__text{
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0;
+    transform: scale(-10px);
+}
+
+.sp-dv__text p{
+    font-weight: bold;
+    font-size: .9em;
+    margin: 0;
+}
+
+.sp-dv__button{
+    padding: 20px 0 30px;
+}
+
+.sp-dv__button Button{
+    color: #000;
+    font-weight: bolder;
+    padding: 10px 60px;
+    transition: transform 0.5s;
+    background-color: #f97c29;
+}
+
+.sp-dv__button Button:hover{
+    transform: scale(1.1);
+    background-color: #f97c29;
+}
+
+.sp-dv__box-inner:hover{
+    .sp-dv__img img{
+        transform: scale(1.1);
+    }
+
+    .sp-dv__text{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

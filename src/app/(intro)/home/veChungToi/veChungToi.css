@@ -1,0 +1,67 @@
+/* Home - Ve chung toi */
+
+.vct{
+    height: auto;
+    margin: 50px 105px;
+}
+
+.vct-content{
+    position: relative;
+}
+
+.vct-title{
+    font-size: 160%;
+    color: rgb(249, 124, 41);
+    font-weight: 700;
+    margin-left: 42%;
+}
+
+.vct-title::before{
+    content: "";
+    background-color: #333;
+    width: 227px;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vct-starIcon{
+    color: #5a564d;
+    position: absolute;
+    left: 48%;
+    bottom: -89%;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vct__content-col{
+    margin-top: 70px;
+}
+
+.vct__content-col img{
+    padding-top: 0.2em;
+    width: 105px;
+    margin-bottom: 1em;
+    max-width: 100%;
+    position: relative;
+}
+
+.vct__text{
+    background-color: rgb(245, 245, 245);
+}
+
+.vct__text h3{
+    color: #f97c29;
+    font-weight: 700;
+    font-size: 1.50em;
+}
+
+.vct__text p{
+    color: #4a4a4a;
+    font-weight: 700;
+    line-height: 3;
+    font-size: 1.1em;
+}
